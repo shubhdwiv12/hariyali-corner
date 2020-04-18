@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/0cbd7feb3c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width:1100px)" href="css/widescreen.css">
+  <title>Hariyali Corner</title>
+</head>
+
+<body id="home">
+  <!-- Navbar -->
+  <nav id="navbar">
+    <h1 id="logo">
+      <span class="logo-primary">
+        <a href="#home"><i class="fas fa-utensils"></i>Hariyali</a>
+      </span>Corner
+    </h1>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#whatWeCook">What we Cook</a></li>
+      <li><a href="#whoWeAre">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!-- header -->
+  <header id="main-header">
+    <div class="main-content">
+      <h1 class="main-heading">We Cook For The Stomach</h1>
+      <p class="sub-heading">Wait..Why am I thinking about Chole Bhature? We’re supposed to be eating at Hariyali..</p>
+      <a href="contact" class="btn">Know More</a>
+    </div>
+  </header>
+
+  <!-- What we cook -->
+  <section id="whatWeCook">
+    <h1 class="cook-heading"><span class="cook-green-highlight">What We</span> Cook</h1>
+    <div class="food-list">
+      <div class="item">
+        <div class="img"><img src="./img/chole.jpg" alt=""></div>
+        <div>
+          <h3 class="dishName">Chole Bhature</h3>
+          <p class="detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, cum.</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="img"><img src="./img/samosa.jpg" alt=""></div>
+        <div>
+          <h3 class="dishName">Samosha Chatni</h3>
+          <p class="detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, cum.</p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="img"><img src="./img/jalebi.webp" alt=""></div>
+        <div>
+          <h3 class=" dishName">Dahi Jalebi</h3>
+          <p class="detail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, cum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who we are actually -->
+  <section class="" id="whoWeAre">
+    <h1 class="cook-heading"><span class="cook-green-highlight">Who we</span> Are</h1>
+    <div class="container">
+      <div class="team-img p-2">
+        <div></div>
+      </div>
+      <div class="about bg-dark p-2">
+        <h2 class="who-we-are"><span class="cook-green-highlight">Founder's </span>Talk</h2>
+        <p class="founder-talk">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum odit distinctio pariatur
+          molestiae aut vel dolores porro, obcaecati eveniet aspernatur vero nostrum recusandae illo veritatis iusto
+          dignissimos, sit maxime! Quia praesentium, deserunt, pariatur debitis molestiae reprehenderit repellendus quo
+          odit dolores nam ipsum nesciunt corporis. Porro aliquam dolore odit possimus, labore accusantium illo vitae,
+          corporis omnis laboriosam, ducimus suscipit? Dolores corporis odio, reprehenderit accusantium nam aliquid,
+          voluptate animi, maiores at consequuntur quia quibusdam repellat! Delectus possimus odio dolore
+          exercitationem,
+          obcaecati, non amet porro iure sunt aut veritatis autem cumque, animi aperiam sequi? Enim corrupti, et nam
+          accusamus repudiandae, dolorem, minima distinctio in provident nemo similique sunt reiciendis aspernatur! Cum,
+          suscipit fugit repellendus itaque, illum fuga molestiae veniam est minima laudantium alias voluptas at! Alias
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact Details -->
+  <section id="contact">
+    <div class="contact-form bg-color p-2">
+      <h2 class="contactheading">Contact Us</h2>
+      <p class="contact-sub-heading">Please fill the details to contact Us</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="number" name="phone" id="phone" placeholder="Enter your mobile number" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Description</label>
+          <textarea id="textarea"></textarea>
+        </div>
+        <input type="submit" class="btn-dark" value="Submit">
+      </form>
+    </div>
+    <div id="map" class="p-2"></div>
+  </section>
+
+  <!-- footer -->
+  <footer id="main-footer">
+    <div class="container-footer">
+      <p>Copyright &copy; 2020 : Hariyali Corner, All Right Reserved</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0csn8AK4EtREg4-k6RCMFzhH0Dlv9wj8&callback=initMap"
+    async defer></script>
+</body>
+
+</html>

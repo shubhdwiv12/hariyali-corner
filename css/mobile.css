@@ -1,0 +1,85 @@
+@media screen and (max-width:768px) {
+  .food-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .item .img img {
+    height: 30vh;
+    width: 40vh;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  .about {
+    width: 70vh;
+    font-size: 12px;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
+
+}
+
+
+@media screen and (max-width:540px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #navbar ul {
+    margin-top: 0.6rem;
+    justify-content: center;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .item .img img {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+  }
+
+  .container {
+    display: flex;
+    width: 100%;
+  }
+
+  .team-img {
+    display: none;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #map {
+    height: 100%;
+  }
+
+}
